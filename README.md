@@ -111,7 +111,7 @@ endmodule
 
 In this lab, we designed and simulated a half adder, a full adder, and a four-bit parallel adder using Verilog. These designs were tested with various input combinations to verify correct behavior. The knowledge of Verilog and these basic arithmetic circuits lays the foundation for more complex digital designs.
 
-Learn More about [Lab 01](Lab01)
+Learn More about [Lab 01](Lab01/TEACHME.md)
 
 ---
 ---
