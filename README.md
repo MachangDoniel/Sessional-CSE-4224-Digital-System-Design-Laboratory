@@ -25,6 +25,11 @@ Verilog is a hardware description language (HDL) used to model digital systems. 
 
 ## Half Adder Design
 
+<div align="center">
+    <img src="images/HA.png" alt="Item View" width="400"/>
+    <p><em>Figure 1: Half Adder</em></p>
+</div>
+
 The half_adder module is the basic component for adding two single-bit binary numbers.
 
 ```verilog
@@ -41,6 +46,14 @@ endmodule
 ```
 
 ## Full Adder Design
+
+<div align="center">
+    <img src="images/FA.png" alt="Item View" width="600"/>
+</div>
+<div align="center">
+    <img src="images/FA2.png" alt="Item View" width="800"/>
+    <p><em>Figure 2: Full Adder</em></p>
+</div>
 
 The Full_Adder module takes three inputs: two binary numbers and a carry-in, producing a sum and a carry-out.
 
@@ -62,6 +75,11 @@ module Full_Adder (x, y, cin, s2, cout);
 endmodule
 ```
 ### Parallel Adder Design
+
+<div align="center">
+    <img src="images/PA.png" alt="Item View" width="800"/>
+    <p><em>Figure 3: Parallel Adder</em></p>
+</div>
 
 The `Paraller_Adder` module connects multiple full adders to add four-bit binary numbers.
 
