@@ -1,0 +1,74 @@
+timestamp=1730701583565
+
+[~A]
+LastVerilogToplevel=bread_board
+ModifyID=8
+Version=74
+c:/My_Designs/lab2_a2/Adder/src/bread_board.v=0*20995*21624
+c:/My_Designs/lab2_a2/Adder/src/half_adder.v_full_adder.v=0*623*1200
+c:/My_Designs/lab2_a2/Adder/src/half_adder.v_full_adder.v_control.v=0*2572*3319
+c:/My_Designs/lab2_a2/Adder/src/half_adder.v_full_adder.v_control.v_control_with_fa.v=0*4979*5840
+c:/My_Designs/lab2_a2/Adder/src/half_adder.v_full_adder.v_control.v_control_with_fa.v_four_bit_parallel_adder.v=0*7850*8945
+c:/My_Designs/lab2_a2/Adder/src/half_adder.v_full_adder.v_control.v_control_with_fa.v_four_bit_parallel_adder.v_bread_board.v=0*18600*19950
+
+[~MFT]
+0=4|0Adder.mgf|21624|4024
+1=4|1Adder.mgf|46885|39463
+3=8|3Adder.mgf|23438|19599
+
+[$root]
+A/$root=22|||1*46511
+BinW64/$root=3*22376
+SLP=3*22491
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92164dc409f015c9d5156428d4cb46abae2e
+
+[bread_board]
+A/bread_board=22|../src/bread_board.v|27|1*46885
+BinW64/bread_board=3*22559
+R=../src/bread_board.v|27
+SLP=3*23438
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|515d06278a6d9b36b62e1e82d28547e91318c6a7986d7dfaa4e40e563bdd415cfc4a78c479b25c0255003fc36e9a500d
+
+[control]
+A/control=22|../src/control.v|27|1*40426
+BinW64/control=3*19141
+R=../src/control.v|27
+SLP=3*19758
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f2cabf5e9d8860133c44841e25d9d38726527262ddaa47cb266f3a3c4d9b973ac5ef4d459c46dcf7705ec456794f7f5e
+
+[control_with_fa]
+A/control_with_fa=22|../src/control_with_fa.v|27|1*41782
+BinW64/control_with_fa=3*20033
+R=../src/control_with_fa.v|27
+SLP=3*20158
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|70c4735cda2407860a3f8f7c953da33695a7bd10c13a80784f9b00df8f4eb7045a78079068159c5d2b66641cd86ccb7a
+
+[four_bit_parallel_adder]
+A/four_bit_parallel_adder=22|../src/four_bit_parallel_adder.v|27|1*43208
+BinW64/four_bit_parallel_adder=3*20296
+R=../src/four_bit_parallel_adder.v|27
+SLP=3*20429
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0bb832c1ac8cfe850159f5e18e5defaf06af1056a850f57982e4637539c0624f26527262ddaa47cb266f3a3c4d9b973a1a890c00e084bd7e1b0569b583fc4a6c
+
+[full_adder]
+A/full_adder=22|../src/full_adder.v|27|1*38961
+BinW64/full_adder=3*18638
+R=../src/full_adder.v|27
+SLP=3*18970
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933e2e01ba64d12ea738e6c2e8b37bba04a0
+
+[half_adder]
+A/half_adder=22|../src/half_adder.v|27|1*38020
+BinW64/half_adder=3*18080
+R=../src/half_adder.v|27
+SLP=3*18447
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c2320807934ffc56afb67df4ac51a1a753
+
+[~U]
+$root=12|0*20604|
+bread_board=12|0*20802||0x10
+control=12|0*17602|
+control_with_fa=12|0*17813|
+four_bit_parallel_adder=12|0*18075|
+full_adder=12|0*17370|
+half_adder=12|0*17161|

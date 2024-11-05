@@ -1,0 +1,66 @@
+timestamp=1730794039323
+
+[~A]
+C:/Users/la lab/Desktop/1907121/Lab01/adder/src/Full_Adder.v=0*28866*29382
+C:/Users/la lab/Desktop/1907121/Lab01/adder/src/Paraller_Adder.v=0*35174*35838
+C:/Users/la lab/Desktop/1907121/Lab01/adder/src/adder_simulator.v=0*19589*20142
+C:/Users/la lab/Desktop/1907121/Lab01/adder/src/half_adder.v=0*1743*2211
+C:/Users/la lab/Desktop/1907121/Lab01/adder/src/half_adder.v_adder_simulator.v=0*16476*17170
+F:/Academic/4th Year/8th Semester/DSD/Lab 01/1907121/1907121/Lab01/adder/src/half_adder.v_Full_Adder.v_Paraller_Adder.v=0*37262*38237
+LastVerilogToplevel=Paraller_Adder
+ModifyID=25
+Version=74
+
+[~MFT]
+0=6|0adder.mgf|38237|21135
+1=8|1adder.mgf|45300|40374
+3=16|3adder.mgf|34308|30085
+
+[$root]
+A/$root=22|||1*42558
+BinW64/$root=3*32425
+SLP=3*32540
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216b93a91e33adcec3ca580879f0e0ec2b6
+
+[Full_Adder]
+A/Full_Adder=22|../src/Full_Adder.v|27|1*43905
+BinW64/Full_Adder=3*33166
+R=../src/Full_Adder.v|27
+SLP=3*33497
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fa69c5930488640f559f7e13be5c9d3b268a21810912fca3e06878041bd0da2d8489804c1297e5301bf6fab0442c5705
+
+[Paraller_Adder]
+A/Paraller_Adder=22|../src/Paraller_Adder.v|27|1*45300
+BinW64/Paraller_Adder=3*33668
+R=../src/Paraller_Adder.v|27
+SLP=3*34308
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|7e1f0f7c22f51bcf0affe8493fe0be17c3adf331439667b39786f44dadbeba3a1ce1c561450d9f6e4e4577314f0dc550
+
+[add_simulator]
+A/add_simulator=22|../src/adder_simulator.v|28|1*19964
+BinW64/add_simulator=3*16123
+R=../src/adder_simulator.v|28
+SLP=3*16821
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3e7258bb763cfe83313ddc59439e368daddd98888c7159178a1b4be0eb887245f8b3f46fe7615e654406bb73cb21a045
+
+[half_adder]
+A/half_adder=22|../src/half_adder.v|27|1*42964
+BinW64/half_adder=3*32608
+R=../src/half_adder.v|27
+SLP=3*32975
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c2639c2691e0c86686b244e9b8a93e1496
+
+[half_simulator]
+A/half_simulator=22|../src/adder_simulator.v|28|1*18480
+BinW64/half_simulator=3*14768
+R=../src/adder_simulator.v|28
+SLP=3*15467
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|035051e311c63ce1260c566c336c99bd398809102959928d600fff9cd72a647c7872598a2cd324dd48a979d65b948ec4
+
+[~U]
+$root=12|0*36383|
+Full_Adder=12|0*36822|
+Paraller_Adder=12|0*37056||0x10
+add_simulator=12|0*19406||0x10
+half_adder=12|0*36613|
+half_simulator=12|0*17927||0x10

@@ -1,0 +1,6 @@
+i<>.\src\half_adder.v
+i<>.\src\full_adder.v
+i<>.\src\control.v
+i<>.\src\control_with_fa.v
+i<>.\src\four_bit_parallel_adder.v
+i<>.\src\bread_board.v

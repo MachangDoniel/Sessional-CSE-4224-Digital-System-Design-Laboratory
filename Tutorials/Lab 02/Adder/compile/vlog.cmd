@@ -1,0 +1,1 @@
+-o c:/My_Designs/lab2_a2/Adder/compile -lc c:/My_Designs/lab2_a2/library.cfg -fl c:/My_Designs/lab2_a2/Adder/projlib.cfg -pli "C:/Aldec/Active-HDL-Student-Edition/bin/systf.dll" -O2 -sve -msg 5 -sv2k17 -work Adder c:/My_Designs/lab2_a2/Adder/src/bread_board.v 
