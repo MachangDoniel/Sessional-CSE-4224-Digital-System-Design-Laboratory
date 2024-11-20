@@ -1,0 +1,70 @@
+timestamp=1732082602104
+
+[~A]
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab_2/lab_2/d 5 nov/src/BB.v=0*24925*25635
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab_2/lab_2/d 5 nov/src/HA.v=0*19933*20499
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab_2/lab_2/d 5 nov/src/LACG.v=0*21554*22330
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab_2/lab_2/d 5 nov/src/circuit.v=0*23352*23923
+LastVerilogToplevel=BB
+ModifyID=21
+Version=74
+c:/My_Designs/lab_2/d 5 nov/src/BB.v=0*16926*17482
+c:/My_Designs/lab_2/d 5 nov/src/FA.v=0*8517*8961
+c:/My_Designs/lab_2/d 5 nov/src/HA.v=0*7222*7634
+c:/My_Designs/lab_2/d 5 nov/src/LACG.v=0*18399*19037
+c:/My_Designs/lab_2/d 5 nov/src/circuit.v=0*11416*11833
+
+[~MFT]
+0=4|0d_5_nov.mgf|25635|9147
+1=4|1d_5_nov.mgf|33447|28680
+2=0|2d_5_nov.mgf|0|0
+3=8|3d_5_nov.mgf|20703|16295
+
+[$root]
+A/$root=22|||1*33073
+BinW64/$root=3*19987
+SLP=3*20102
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92160ebe166d0e7bbd9d0c7daaaf38829739
+
+[BB]
+A/BB=22|../src/BB.v|27|1*33447
+BinW64/BB=3*20170
+R=../src/BB.v|27
+SLP=3*20703
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|4c9812c4412a29f54c7c2ca708944712af226fa012d0bd78c7d050dee8b3b5a6
+
+[FA]
+BinW64/FA=3*6317
+R=../src/FA.v|27
+SLP=3*6782
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f1750500365c95ccf822ac76f373146b9f8054e1de9d28f500b715e9bbed887f
+
+[HA]
+A/HA=22|../src/HA.v|27|1*27932
+BinW64/HA=3*16592
+NSymbols/ha=NSymbols/HA 40|0|2*0
+R=../src/HA.v|27
+SLP=3*16951
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|90a540c213ecdb04e3d953c466e9b512a0dd760ca739f2969d3f224559fd868c
+
+[LACG]
+A/LACG=22|../src/LACG.v|7|1*29200
+BinW64/LACG=3*17306
+R=../src/LACG.v|7
+SLP=3*18348
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|926765ef6291377cf360b0c77cd150ea6d4a17c11f391adaf090e6e68d1ea9f1
+
+[circuit]
+A/circuit=22|../src/circuit.v|27|1*32157
+BinW64/circuit=3*19379
+R=../src/circuit.v|27
+SLP=3*19814
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c49c9b0e0fa3f1f8e6983db099c2eeaf26527262ddaa47cb266f3a3c4d9b973a28e42411a3f646abe027b818622b32ae
+
+[~U]
+$root=12|0*24567|
+BB=12|0*24749||0x10
+FA=12|0*8317||0x10
+HA=12|0*19738||0x3
+LACG=12|0*21320|
+circuit=12|0*23153|

@@ -1,0 +1,23 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+AU=0
+[COMPILESTATUS|.\src\LACG.v]
+FileTimeLow=3440863320
+FileTimeHigh=31144725
+Status=Compiled
+[COMPILESTATUS|.\src\HA.v]
+FileTimeLow=2863384071
+FileTimeHigh=31144725
+Status=Compiled
+[COMPILESTATUS|.\src\circuit.v]
+FileTimeLow=2895228696
+FileTimeHigh=31144725
+Status=Compiled
+[COMPILESTATUS|.\src\BB.v]
+FileTimeLow=580942328
+FileTimeHigh=31144726
+Status=Compiled
+[COMPILESTATUS|.\src\LACG.v]
+FileTimeLow=3440863320
+FileTimeHigh=31144725
+Status=Compiled

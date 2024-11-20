@@ -1,0 +1,57 @@
+timestamp=1732084436797
+
+[~A]
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab02/AU/src/BB.v=0*13346*14045
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab02/AU/src/HA.v=0*361*884
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab02/AU/src/LACG.v=0*11561*12374
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab02/AU/src/LACG.v_HA.v_circuit.v_BB.v=0*9309*10495
+F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab02/AU/src/circuit.v=0*1861*2389
+LastVerilogToplevel=BB
+ModifyID=8
+Version=74
+
+[~MFT]
+0=6|0AU.mgf|14045|4117
+1=4|1AU.mgf|20850|15940
+3=8|3AU.mgf|16374|11822
+
+[$root]
+A/$root=22|||1*20476
+BinW64/$root=3*15658
+SLP=3*15773
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216fed86dc294e8035dcda07e8539218bda
+
+[BB]
+A/BB=22|../src/BB.v|27|1*20850
+BinW64/BB=3*15841
+R=../src/BB.v|27
+SLP=3*16374
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|4c9812c4412a29f54c7c2ca708944712ba4a60178a8b1a38b59742797c8d38f4
+
+[HA]
+A/HA=22|../src/HA.v|27|1*13800
+BinW64/HA=3*10585
+R=../src/HA.v|27
+SLP=3*10944
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|90a540c213ecdb04e3d953c466e9b5127efec1f1365a5ff9ba96e9b78877dea8
+
+[LACG]
+A/LACG=22|../src/LACG.v|27|1*17813
+BinW64/LACG=3*12954
+R=../src/LACG.v|27
+SLP=3*14467
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|926765ef6291377cf360b0c77cd150ead215af7f69ee03ebc69c2ffcfc5838bf
+
+[circuit]
+A/circuit=22|../src/circuit.v|27|1*14729
+BinW64/circuit=3*11114
+R=../src/circuit.v|27
+SLP=3*11549
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c49c9b0e0fa3f1f8e6983db099c2eeaf26527262ddaa47cb266f3a3c4d9b973a1265e07400d884e53f8d4b7420371e31
+
+[~U]
+$root=12|0*12988|
+BB=12|0*13170||0x10
+HA=12|0*8729|
+LACG=12|0*11327|
+circuit=12|0*8924|

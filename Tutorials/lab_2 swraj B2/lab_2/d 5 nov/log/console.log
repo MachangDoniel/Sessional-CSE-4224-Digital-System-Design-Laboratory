@@ -1,0 +1,94 @@
+# Warning: You do not have valid license to open Block Diagram files. Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+asim -O5 +access +r +m+BB BB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+asim -O5 +access +r +m+BB BB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work d_5_nov $dsn/src/HA.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work d_5_nov $dsn/src/LACG.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work d_5_nov $dsn/src/circuit.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work d_5_nov $dsn/src/BB.v
+# Info: VCP2876 BB.v : (40, 30): Implicit net declaration, symbol carry has not been declared in module BB.
+# Unit top modules: BB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+asim -O5 +access +r +m+BB BB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.5 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.6 [s]
+# SLP: Finished : 2.2 [s]
+# SLP: 0 primitives and 19 (100.00%) other processes in SLP
+# SLP: 48 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 2.9 [s].
+# KERNEL: SLP loading done - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4671 kB (elbread=427 elab2=4110 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location F:\Academic\4th Year\8th Semester\CSE 4224 Digital System Design Laboratory\Lab02\lab_2\lab_2\d 5 nov\src\wave.asdb
+#  12:03 PM, Wednesday, November 20, 2024
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab_2/lab_2/d 5 nov/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+BB BB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 19 (100.00%) other processes in SLP
+# SLP: 48 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4671 kB (elbread=427 elab2=4110 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location F:\Academic\4th Year\8th Semester\CSE 4224 Digital System Design Laboratory\Lab02\lab_2\lab_2\d 5 nov\src\wave.asdb
+#  12:03 PM, Wednesday, November 20, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Academic/4th Year/8th Semester/CSE 4224 Digital System Design Laboratory/Lab02/lab_2/lab_2/d 5 nov/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
